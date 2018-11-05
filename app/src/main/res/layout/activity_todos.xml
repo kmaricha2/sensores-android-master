@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.essejose.sensores.todos">>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/Lista"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sGyro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gyroscopio"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+            <TextView
+                android:id="@+id/sProx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proximidad"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+            <TextView
+                android:id="@+id/sMag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Magnetómetro"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+            <TextView
+                android:id="@+id/sLuz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALS (Sensor de Luz Ambiental): "
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+            <TextView
+                android:id="@+id/sBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barómetro"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
